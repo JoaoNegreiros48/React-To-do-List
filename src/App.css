@@ -5,12 +5,18 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-weight: 600;
+  opacity: 85%;
 }
 .ToDoList{
   background-color: #FBF3F1;
-  width: 70vw;
-  height: 80vh;
+  width: 65vw;
+  height: 75vh;
   display: flex;
   border-radius: 20px;
   border-top: 10px solid #FB991C;
+  padding: 15px;
 }

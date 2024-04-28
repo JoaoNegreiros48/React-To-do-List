@@ -7,6 +7,10 @@ body{
   height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+} 
 h1{
   font-weight: 600;
   opacity: 85%;
@@ -53,4 +57,24 @@ h1{
 .Item span{
   float: right;
   margin-left: auto;
+}
+.AddItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: auto;
+}
+.AddItem p{
+  margin-left: auto;
+  opacity: 80%;
+  cursor: pointer;
+}
+.AddItem input{
+  width: 87%;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid #1C7690;
+  padding-left: 15px;
 }

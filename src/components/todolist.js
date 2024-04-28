@@ -8,6 +8,7 @@ export default  function ToDoList() {
         <ToDoTitle />
         <ToDoLine />
         <ToDoListItens />
+        <ToDoLine />
       </div>
     );
   }
